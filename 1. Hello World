@@ -1,0 +1,15 @@
+class hello //class name oop concept
+{
+    public static void main(String args[]) //this is main function which is executed first
+    {
+        System.out.println("Hello World"); //print statement
+    }
+}
+
+
+/* 
+the above code is sent to "JAVA COMPILER",  this java compiler convert above code into "BYTE CODE"
+then that byte code is sent to "JVM" (Java virtual Machine), byte code can be read only by JVM
+this JVM converts byte code into Machine readable code 
+then it is execute line by line and show output as "Hello World"
+*/
