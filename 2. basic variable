@@ -1,0 +1,11 @@
+class welcome
+{
+    public static void main(String args[])
+    {
+        //data_type variable_name = data
+        int container = 67 ; 
+        String container2 = "tamilarasi";
+        System.out.println(container);
+        System.out.println(container2);
+    }
+}
