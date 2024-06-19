@@ -1,0 +1,16 @@
+//Get input for variable: Name and Age and print it.
+
+import java.lang.System;
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        Scanner code = new Scanner(System.in);
+        String name = code.nextLine();
+        int age = code.nextInt();
+        System.out.println(name);
+        System.out.println(age);
+    }
+}
