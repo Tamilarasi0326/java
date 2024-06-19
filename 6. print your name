@@ -1,0 +1,13 @@
+import java.lang.System;
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        Scanner name = new Scanner(System.in);
+        String urname = name.nextLine();
+        System.out.println(urname);
+
+    }
+}
