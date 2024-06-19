@@ -1,0 +1,12 @@
+import java.lang.System;
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        Scanner box = new Scanner(System.in);
+        int a = box.nextInt();
+        System.out.print(a);
+    }
+}
