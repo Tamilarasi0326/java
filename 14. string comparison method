@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        String f1 = new String("apple");
+        String f2 = new String("apple");
+
+        System.out.println(f1.equals(f2)); //actually compare the two values of the strings, correct method to check the equality of the string
+        System.out.println(f1==f2); //this method is usually compares the reference memory of the two strings, incorrect method
+    }
+}
