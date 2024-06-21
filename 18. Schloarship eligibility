@@ -1,0 +1,21 @@
+//Get input for variable Income.  If income is greater than 7000 scholarship is available.  Else not eligible for scholarship.
+
+import java.lang.System;
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        Scanner scan = new Scanner(System.in);
+        int income  = scan.nextInt();
+        if(income > 7000)
+        {
+            System.out.println("Scholarship is available");
+        }
+        else
+        {
+            System.out.println("Not eligible for scholarship");
+        }
+    }
+}
