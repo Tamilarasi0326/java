@@ -1,0 +1,21 @@
+//Get input for a number and find it is even or odd number.
+
+import java.lang.System;
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        Scanner scan = new Scanner(System.in);
+        int n  = scan.nextInt();
+        if(n%2==0)
+        {
+            System.out.println(n + " is even");
+        }
+        else
+        {
+            System.out.println(n  + " is odd");
+        }
+    }
+}
