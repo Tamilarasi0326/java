@@ -1,0 +1,29 @@
+/* What is the score in a game?
+--if the score is less than 50, print "You need to improve."
+--if the score is between 50 and 70(inclusive), print "Good job!"
+--if the score is greater than 70, print "Excellent performance!" 
+*/
+
+import java.lang.System;
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        Scanner s = new Scanner(System.in);
+        int score = s.nextInt();
+        if(score < 50)
+        {
+            System.out.println("You need to improve.");
+        }
+        else if(score => 50 && score <= 70)
+        {
+            System.out.println("Good job!");
+        }
+        else if(score > 70)
+        {
+            System.out.println("Excellent performance!");
+        }
+    }
+}
