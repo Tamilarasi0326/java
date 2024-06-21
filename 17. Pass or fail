@@ -1,0 +1,21 @@
+//Get input for variable Mark.  If mark > 35 print pass.  Else print fail.
+
+import java.lang.System;
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        Scanner scan = new Scanner(System.in);
+        int mark  = scan.nextInt();
+        if(mark > 35)
+        {
+            System.out.println("pass");
+        }
+        else
+        {
+            System.out.println("fail");
+        }
+    }
+}
