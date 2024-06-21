@@ -1,0 +1,29 @@
+//I can get video game if i score > 35, i can get Iphone if i Score > 60, i can get MacBook pro if i score > 90
+
+import java.lang.System;
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        Scanner scan = new Scanner(System.in);
+        int score = scan.nextInt();
+        if(score > 35 && score<60)
+        {
+            System.out.println(score + " , then u will get video game");
+        }
+        else if(score > 60 && score<90)
+        {
+            System.out.println(score + " , then u will get Iphone");
+        }
+        else if(score > 90)
+        {
+            System.out.println(score + " , then u will get MacBook Pro");
+        }
+        else
+        {
+            System.out.println("nothing");
+        }
+    }
+}
