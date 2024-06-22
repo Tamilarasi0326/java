@@ -1,0 +1,27 @@
+//Get input for five subjects marks.  Add all of it, and find average.  If average mark is less than 35.  Print "Additional class is required" else print "you are good to go".
+
+import java.lang.System;
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        Scanner s = new Scanner(System.in);
+        int sci = s.nextInt();
+        int mat = s.nextInt();
+        int soc = s.nextInt();
+        int eng = s.nextInt();
+        int cs = s.nextInt();
+        int total = sci + mat + soc + eng + cs;
+        int avg = total/5;
+        if(avg < 35)
+        {
+            System.out.println("Additional class is required");
+        }
+        else
+        {
+            System.out.println("You are good to go");
+        }
+    }
+}
