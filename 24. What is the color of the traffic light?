@@ -1,0 +1,29 @@
+/* What is the color of the traffic light? 
+--if the answer is "red", print "Stop".
+--if the answer is "yellow", print "Get Ready".
+--if the answer is "green", print "Go".
+*/
+
+import java.lang.System;
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        Scanner s = new Scanner(System.in);
+        String light = s.nextLine();
+        if( light.equals("red"))
+        {
+            System.out.println("Stop");
+        }
+        else if( light.equals("yellow"))
+        {
+            System.out.println("Get Ready");
+        }
+        else
+        {
+            System.out.println("Go");
+        }
+    }
+}
