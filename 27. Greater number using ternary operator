@@ -1,0 +1,21 @@
+/* Greater number using ternary operator
+
+Get input for two integer number and find which number is greater using ternary operator
+
+*/
+
+import java.lang.System;
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        Scanner s = new Scanner(System.in);
+        int a = s.nextInt();
+        int b = s.nextInt();
+
+        int result = (a>b) ? a : b;
+        System.out.println(result);
+    }
+}
