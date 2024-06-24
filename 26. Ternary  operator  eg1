@@ -1,0 +1,21 @@
+/* Ternary  operator
+
+if it rains bring umbrella
+else enjoy the sunlight
+boolean rain = true
+*/
+
+import java.lang.System;
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        Scanner s = new Scanner(System.in);
+        boolean rain = s.nextBoolean();
+
+        String result = rain?"bring umbrella":"enjoy the sunlight";
+        System.out.println(result);
+    }
+}
