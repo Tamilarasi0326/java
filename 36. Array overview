@@ -1,0 +1,15 @@
+/* An array is like a row of boxes where each box can hold a 
+value, but all boxes must hold the same type of value.  
+You can quickly find and change the contents of any box by
+knowing its position in the row.
+
+*/
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        String playlist[] = {"song 1", "song 2", "song 3"};
+        System.out.println(playlist[0]);
+    }
+}
