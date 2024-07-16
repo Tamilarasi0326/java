@@ -1,0 +1,19 @@
+//Create an integer array, get input for 5 numbers and print their sum or total.
+
+import java.lang.System;
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        int arr[] = new int[5];
+        Scanner scan = new Scanner(System.in);
+        arr[0] = scan.nextInt();
+        arr[1]= scan.nextInt();
+        arr[2] = scan.nextInt();
+        arr[3] = scan.nextInt();
+        arr[4] = scan.nextInt();
+        System.out.println(arr[0]+ arr[1]+ arr[2] + arr[3] + arr[4]);
+    }
+}
