@@ -1,0 +1,24 @@
+//Get input for 5 numbers using Array and for loop.
+
+import java.lang.System;
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        int[] arr = new int[5];
+        Scanner scan = new Scanner(System.in);
+        for(int i=0; i<5; i++)
+        {
+            arr[i] = scan.nextInt();
+            
+        }
+        System.out.print("The arrays are [ ");
+        for(int i = 0; i<=4; i++)
+        {
+             System.out.print(  arr[i] + " , " );
+        }
+        System.out.print(" ]");
+    }
+}
