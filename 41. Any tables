@@ -1,0 +1,20 @@
+//print tables as per user input
+
+import java.lang.System;
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        Scanner scan = new Scanner(System.in);
+        int[] arr = new int[11];
+        int a = scan.nextInt();
+        for(int i = 1; i<11; i++)
+        {
+            System.out.println(a + " X " + i + " = " + a*i);
+        }
+        
+    }
+
+}
