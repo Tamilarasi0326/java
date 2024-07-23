@@ -1,0 +1,19 @@
+//print 2 tables
+
+import java.lang.System;
+import java.util.Scanner;
+
+class welcome
+{
+    public static void main(String args[])
+    {
+        Scanner scan = new Scanner(System.in);
+        int[] arr = new int[11];
+        for(int i = 1; i<11; i++)
+        {
+            System.out.println(" 2 X " + i + " = " + 2*i);
+        }
+        
+    }
+
+}
